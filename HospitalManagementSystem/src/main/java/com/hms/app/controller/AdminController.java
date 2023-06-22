@@ -37,7 +37,7 @@ public class AdminController {
 	public String getAdminWelcomePage(Model model, HttpSession session)
 	{
 		
-       
+       System.out.println("admin screen");
 		return "admin/welcomeadmin";
 	}
 	
